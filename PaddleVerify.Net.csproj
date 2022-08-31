@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageVersion>1.0.2</PackageVersion>
+        <Title>PaddleVerify.Net</Title>
+        <Authors>Marcel Rückert</Authors>
+        <Description>A library used to verify webhook messages from Paddle.</Description>
+        <PackageProjectUrl>https://github.com/lecramr/PaddleVerify.Net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/lecramr/PaddleVerify.Net</RepositoryUrl>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
+        <Version>1.0.2</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>

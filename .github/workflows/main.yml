@@ -1,0 +1,18 @@
+name: Publish to Nuget
+on:
+  workflow_dispatch:
+
+jobs:
+  buildAndPublish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+          
+      - name: Package
+        run: dotnet pack -c Release -o . ./PaddleVerify.Net.csproj
+        
+      - name: Publish
+        run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_APIKEY }} -s https://api.nuget.org/v3/index.json
