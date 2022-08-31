@@ -4,15 +4,15 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageVersion>1.0.2</PackageVersion>
-        <Title>PaddleVerify.Net</Title>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Title>PaddleVerifyNet</Title>
         <Authors>Marcel Rückert</Authors>
         <Description>A library used to verify webhook messages from Paddle.</Description>
         <PackageProjectUrl>https://github.com/lecramr/PaddleVerify.Net</PackageProjectUrl>
         <RepositoryUrl>https://github.com/lecramr/PaddleVerify.Net</RepositoryUrl>
-        <AssemblyVersion>1.0.2</AssemblyVersion>
-        <FileVersion>1.0.2</FileVersion>
-        <Version>1.0.2</Version>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Version>1.0.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
